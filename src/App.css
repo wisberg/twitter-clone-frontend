@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+.ui.teal.button:focus {
+  background-color: #00b5ad;
+}
+#root {
+  background-color: #518faa;
+  color: lightgray;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  border: none;
+  background-color: rgb(37, 51, 65);
+  color: rgb(117, 134, 147) !important;
+  z-index: 5;
+}
+.ui.form .field > label {
+  color: white;
+}
+
+.ui.container {
+  width: 100vw;
+}
+
+.loginForm {
+  width: 40%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.registerForm {
+  width: 40%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.postForm {
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.myPosts {
+  height: 500px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
