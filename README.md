@@ -1,0 +1,1 @@
+Developed a Twitter clone using a React frontend and MongoDB/GraphQL/Node.js backend. Deployed frontend to Netlify and the backend to Heroku. Currently developing more functionality & upgrading the aesthetic of the app.
