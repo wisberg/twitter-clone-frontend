@@ -8,7 +8,7 @@ import {
 import { setContext } from "apollo-link-context";
 
 const httpLink = createHttpLink({
-  uri: "https://agile-castle-81869.herokuapp.com/",
+  uri: "https://tiny-cannoli-ceca86.netlify.app",
 });
 
 const authLink = setContext(() => {
